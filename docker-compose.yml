@@ -1,0 +1,50 @@
+# Sử dụng phiên bản Docker Compose mới nhất
+version: '3.8'
+
+# Định nghĩa các dịch vụ (containers)
+services:
+  # Dịch vụ Database (MySQL)
+  db:
+    image: mysql:8.0
+    container_name: blogshop_db
+    # Khởi động lại nếu container bị dừng
+    restart: always
+    environment:
+      # Tên Database mà WordPress sẽ kết nối
+      MYSQL_DATABASE: wordpress
+      # User Database
+      MYSQL_USER: user
+      # Mật khẩu User Database
+      MYSQL_PASSWORD: password
+      # Mật khẩu Root (Quản trị)
+      MYSQL_ROOT_PASSWORD: root_password
+    volumes:
+      # Lưu trữ dữ liệu DB trên máy tính (để dữ liệu không bị mất khi container dừng)
+      - db_data:/var/lib/mysql
+    
+  # Dịch vụ WordPress và Web Server (Apache/Nginx)
+  wordpress:
+    image: wordpress:6.5.4-php8.2-apache # Sử dụng image WordPress chính thức với PHP 8.2
+    container_name: blogshop_wp
+    restart: always
+    ports:
+      # Ánh xạ cổng 80 của container ra cổng 8080 trên máy tính host
+      - "8080:80"
+    environment:
+      # Cấu hình kết nối với dịch vụ DB
+      WORDPRESS_DB_HOST: db:3306 
+      WORDPRESS_DB_USER: user
+      WORDPRESS_DB_PASSWORD: password
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      # Ánh xạ thư mục hiện tại vào thư mục /var/www/html của WordPress
+      # Điều này cho phép bạn chỉnh sửa code và plugin trực tiếp từ máy tính host
+      - wp_data:/var/www/html
+    depends_on:
+      # Đảm bảo dịch vụ DB được khởi động trước WordPress
+      - db
+
+# Định nghĩa các Volume để lưu trữ dữ liệu bền vững
+volumes:
+  db_data:
+  wp_data:
