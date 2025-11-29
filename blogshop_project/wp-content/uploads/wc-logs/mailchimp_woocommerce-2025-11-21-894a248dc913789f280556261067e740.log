@@ -1,0 +1,26 @@
+2025-11-21T09:15:19+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 690b7ceb0d6a2
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 1f490aec56
+            [name] => H-Fashion
+            [domain] => http://localhost/blogshop_project
+            [email_address] => haovtv1234@gmail.com
+            [currency_code] => VND
+            [money_format] => ₫
+            [primary_locale] => vi
+            [timezone] => +00:00
+            [address] => Array
+                (
+                    [country] => VN
+                    [country_code] => VN
+                    [company] => H-Fashion
+                )
+
+        )
+
+)
+

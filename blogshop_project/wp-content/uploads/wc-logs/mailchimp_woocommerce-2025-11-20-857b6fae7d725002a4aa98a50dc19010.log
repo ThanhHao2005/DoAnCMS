@@ -1,0 +1,15 @@
+2025-11-20T04:49:20+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 384 with id 268
+2025-11-20T04:49:21+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-20T04:49:21+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-20T04:49:30+00:00 NOTICE debug :: Order ID 384 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => 
+        )
+
+)
+
+2025-11-20T04:49:30+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-20T04:52:28+00:00 NOTICE order_process :: Order #384 skipped, user #1 user role is not in the list
