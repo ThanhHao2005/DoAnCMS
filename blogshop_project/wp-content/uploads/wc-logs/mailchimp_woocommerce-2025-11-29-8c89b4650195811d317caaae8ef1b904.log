@@ -1,0 +1,23 @@
+2025-11-29T07:22:30+00:00 NOTICE product_submit.success :: upsert :: #551
+2025-11-29T07:22:32+00:00 NOTICE product_variant_submit.success :: updateStoreProductVariation :: #551
+2025-11-29T07:22:34+00:00 NOTICE product_submit.success :: upsert :: #552
+2025-11-29T07:22:36+00:00 NOTICE product_variant_submit.success :: updateStoreProductVariation :: #552
+2025-11-29T07:22:37+00:00 NOTICE product_submit.success :: upsert :: #553
+2025-11-29T07:23:09+00:00 NOTICE product_variant_submit.error :: updateStoreProductVariation :: #553 :: Error Code 500 :: CURL error :: Operation timed out after 30013 milliseconds with 0 bytes received on 2740 in C:\xampp\htdocs\blogshop_project\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2025-11-29T07:29:25+00:00 NOTICE product_submit.success :: upsert :: #554
+2025-11-29T07:29:27+00:00 NOTICE product_variant_submit.success :: updateStoreProductVariation :: #554
+2025-11-29T07:29:28+00:00 NOTICE product_submit.success :: upsert :: #555
+2025-11-29T07:29:30+00:00 NOTICE product_variant_submit.success :: updateStoreProductVariation :: #555
+2025-11-29T07:29:31+00:00 NOTICE product_submit.success :: upsert :: #556
+2025-11-29T07:29:33+00:00 NOTICE product_variant_submit.success :: updateStoreProductVariation :: #556
+2025-11-29T07:29:36+00:00 NOTICE product_variant_submit.success :: addStoreProductVariation :: #557
+2025-11-29T07:29:36+00:00 ERROR action_scheduler.process_job.fail :: Job MailChimp_WooCommerce_Single_Product_Variation not found at wp__mailchimp_jobs database table :: obj_id 557
+2025-11-29T07:29:38+00:00 NOTICE product_variant_submit.success :: addStoreProductVariation :: #558
+2025-11-29T07:29:38+00:00 ERROR action_scheduler.process_job.fail :: Job MailChimp_WooCommerce_Single_Product_Variation not found at wp__mailchimp_jobs database table :: obj_id 558
+2025-11-29T07:29:41+00:00 NOTICE product_variant_submit.success :: addStoreProductVariation :: #559
+2025-11-29T07:29:41+00:00 ERROR action_scheduler.process_job.fail :: Job MailChimp_WooCommerce_Single_Product_Variation not found at wp__mailchimp_jobs database table :: obj_id 559
+2025-11-29T07:29:43+00:00 NOTICE product_variant_submit.success :: addStoreProductVariation :: #560
+2025-11-29T07:29:43+00:00 ERROR action_scheduler.process_job.fail :: Job MailChimp_WooCommerce_Single_Product_Variation not found at wp__mailchimp_jobs database table :: obj_id 560
+2025-11-29T07:29:46+00:00 NOTICE product_variant_submit.success :: addStoreProductVariation :: #561
+2025-11-29T07:29:46+00:00 ERROR action_scheduler.process_job.fail :: Job MailChimp_WooCommerce_Single_Product_Variation not found at wp__mailchimp_jobs database table :: obj_id 561
+2025-11-29T07:29:47+00:00 NOTICE product_submit.success :: upsert :: #264

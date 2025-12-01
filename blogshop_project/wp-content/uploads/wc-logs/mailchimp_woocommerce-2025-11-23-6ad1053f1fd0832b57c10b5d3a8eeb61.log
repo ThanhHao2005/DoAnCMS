@@ -1,0 +1,120 @@
+2025-11-23T13:07:45+00:00 NOTICE admin :: updated GDPR fields :: Array
+(
+    [fields] => Array
+        (
+        )
+
+)
+
+2025-11-23T15:27:35+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 442 with id 338
+2025-11-23T15:27:36+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-23T15:27:36+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-23T15:27:39+00:00 NOTICE debug :: Order ID 442 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => 
+        )
+
+)
+
+2025-11-23T15:29:56+00:00 NOTICE order_process :: Order #442 skipped, user #1 user role is not in the list
+2025-11-23T15:39:02+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 443 with id 341
+2025-11-23T15:39:03+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-23T15:39:03+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-23T15:39:07+00:00 NOTICE debug :: Order ID 443 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => 
+        )
+
+)
+
+2025-11-23T15:40:41+00:00 NOTICE order_process :: Order #443 skipped, user #1 user role is not in the list
+2025-11-23T15:55:32+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 444 with id 343
+2025-11-23T15:55:32+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-23T15:55:32+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-23T15:55:43+00:00 NOTICE debug :: Order ID 444 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => 
+        )
+
+)
+
+2025-11-23T15:57:36+00:00 NOTICE order_process :: Order #444 skipped, user #1 user role is not in the list
+2025-11-23T16:04:37+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-23T16:04:37+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 444 with id 348
+2025-11-23T16:04:37+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-23T16:04:38+00:00 NOTICE debug :: Order ID 444 was processing and is now cancel-request :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2025-11-23T16:06:19+00:00 NOTICE order_process :: Order #444 skipped, user #1 user role is not in the list
+2025-11-23T16:32:10+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id e88794e3450b3bb120843a57d857002a with id 353
+2025-11-23T16:32:24+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id ae15ee19970998d70f6000459fc165d9 with id 354
+2025-11-23T16:32:25+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 445 with id 355
+2025-11-23T16:32:25+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-23T16:32:25+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-23T16:32:25+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-23T16:32:40+00:00 NOTICE debug :: Order ID 445 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => 
+        )
+
+)
+
+2025-11-23T16:32:40+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-23T16:32:53+00:00 NOTICE abandoned_cart.success :: email: haovtv1234@gmail.com :: checkout_url: http://localhost/blogshop_project/checkout/?mc_cart_id=e88794e3450b3bb120843a57d857002a
+2025-11-23T16:32:54+00:00 NOTICE cart.member.updated :: Updated haovtv1234@gmail.com subscriber status to transactionaland language to vi
+2025-11-23T16:33:31+00:00 NOTICE abandoned_cart.success :: email: haovtv12345@gmail.com :: checkout_url: http://localhost/blogshop_project/checkout/?mc_cart_id=ae15ee19970998d70f6000459fc165d9
+2025-11-23T16:33:32+00:00 NOTICE cart.member.updated :: Updated haovtv12345@gmail.com subscriber status to transactionaland language to vi
+2025-11-23T16:33:46+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id ae15ee19970998d70f6000459fc165d9 with id 357
+2025-11-23T16:34:23+00:00 NOTICE abandoned_cart.success :: email: haovtv12345@gmail.com :: checkout_url: http://localhost/blogshop_project/checkout/?mc_cart_id=ae15ee19970998d70f6000459fc165d9
+2025-11-23T16:34:27+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 446 with id 361
+2025-11-23T16:34:27+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-23T16:34:28+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-23T16:34:28+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-23T16:34:28+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-23T16:34:29+00:00 ERROR order_submit.error :: addStoreOrder :: #445 :: Error Code 400 :: <p>order_url: That is not a valid URL: http://localhost/blogshop_project/my-account/view-order/445/</p> on 2950 in C:\xampp\htdocs\blogshop_project\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2025-11-23T16:34:32+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id e7e2a1fe8f1cf5883f46059f83d13f5f with id 363
+2025-11-23T16:34:39+00:00 NOTICE debug :: Order ID 446 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [landing_site] => 
+        )
+
+)
+
+2025-11-23T16:34:39+00:00 NOTICE handleOrderUpdate :: order_status
+2025-11-23T16:34:41+00:00 NOTICE abandoned_cart.success :: email: luongthanhhao17@gmail.com :: checkout_url: http://localhost/blogshop_project/checkout/?mc_cart_id=e7e2a1fe8f1cf5883f46059f83d13f5f
+2025-11-23T16:34:42+00:00 NOTICE cart.member.updated :: Updated luongthanhhao17@gmail.com subscriber status to transactionaland language to vi
+2025-11-23T16:36:32+00:00 ERROR order_submit.error :: addStoreOrder :: #446 :: Error Code 400 :: <p>order_url: That is not a valid URL: http://localhost/blogshop_project/my-account/view-order/446/</p> on 2950 in C:\xampp\htdocs\blogshop_project\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2025-11-23T16:51:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 2 with id 366
+2025-11-23T16:51:52+00:00 NOTICE member.sync :: Updated Member luongthanhhao17@gmail.com :: Array
+(
+    [status] => subscribed
+    [language] => 
+    [merge_fields] => Array
+        (
+        )
+
+    [gdpr_fields] => 
+)
+
+2025-11-23T16:53:55+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id e7e2a1fe8f1cf5883f46059f83d13f5f with id 367
+2025-11-23T16:54:07+00:00 NOTICE abandoned_cart.success :: email: luongthanhhao17@gmail.com :: checkout_url: http://localhost/blogshop_project/checkout/?mc_cart_id=e7e2a1fe8f1cf5883f46059f83d13f5f
+2025-11-23T16:54:20+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id e7e2a1fe8f1cf5883f46059f83d13f5f with id 368
+2025-11-23T16:56:08+00:00 NOTICE abandoned_cart.success :: email: luongthanhhao17@gmail.com :: checkout_url: http://localhost/blogshop_project/checkout/?mc_cart_id=e7e2a1fe8f1cf5883f46059f83d13f5f

@@ -1,0 +1,16 @@
+2025-11-19T01:30:57+00:00 NOTICE admin :: updated GDPR fields :: Array
+(
+    [fields] => Array
+        (
+        )
+
+)
+
+2025-11-19T02:13:07+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id e88794e3450b3bb120843a57d857002a with id 244
+2025-11-19T02:13:34+00:00 NOTICE abandoned_cart.success :: email: haovtv1234@gmail.com :: checkout_url: http://localhost/blogshop_project/checkout/?mc_cart_id=e88794e3450b3bb120843a57d857002a
+2025-11-19T02:13:35+00:00 NOTICE cart.member.updated :: Updated haovtv1234@gmail.com subscriber status to transactionaland language to vi
+2025-11-19T03:07:30+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 13 with id 246
+2025-11-19T03:07:41+00:00 NOTICE product_submit.success :: upsert :: #13
+2025-11-19T04:03:35+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id e88794e3450b3bb120843a57d857002a with id 249
+2025-11-19T04:04:43+00:00 NOTICE abandoned_cart.success :: email: haovtv1234@gmail.com :: checkout_url: http://localhost/blogshop_project/checkout/?mc_cart_id=e88794e3450b3bb120843a57d857002a
+2025-11-19T04:04:56+00:00 NOTICE cart.member.updated :: Updated haovtv1234@gmail.com subscriber status to transactionaland language to vi
